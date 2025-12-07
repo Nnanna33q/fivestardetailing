@@ -2413,7 +2413,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg') no-repeat;
+	background: url('../images/hero-image.png') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 280px 0 150px;
@@ -2567,7 +2567,7 @@ header.main-header .header-sticky.active{
 	top: 0;
 	right: 0;
 	border-radius: 0 20px 0 0;
-	background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box, linear-gradient(45deg, var(--bg-color) 70%, rgba(255, 54, 0, 1) 99.9%) border-box;
+	background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box, linear-gradient(45deg, var(--bg-color) 70%, var(--accent-color) 99.9%) border-box;
 	border-top: 1px solid transparent;
 	border-right: 1px solid transparent;
 }
@@ -2578,7 +2578,7 @@ header.main-header .header-sticky.active{
 	border-radius: 0 0 0 20px ;
 	border-left: 1px solid transparent;
 	border-bottom: 1px solid transparent;
-	background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box, linear-gradient(220deg, var(--bg-color) 35%, var(--bg-color), rgba(255, 54, 0, 1) 99.9%) border-box;
+	background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box, linear-gradient(220deg, var(--bg-color) 35%, var(--bg-color), var(--accent-color) 99.9%) border-box;
 }
 
 .approach-image-box-1 .approach-img{

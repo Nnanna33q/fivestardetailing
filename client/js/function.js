@@ -383,13 +383,13 @@
 	});
 
 	/* Contact form validation */
-	var $contactform = $("#contactForm");
-	$contactform.validator({focus: false}).on("submit", function (event) {
-		if (!event.isDefaultPrevented()) {
-			event.preventDefault();
-			submitForm();
-		}
-	});
+	// var $contactform = $("#contactForm");
+	// $contactform.validator({focus: false}).on("submit", function (event) {
+	// 	if (!event.isDefaultPrevented()) {
+	// 		event.preventDefault();
+	// 		submitForm();
+	// 	}
+	// });
 
 	function submitForm(){
 		/* Ajax call to submit form */

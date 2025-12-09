@@ -6,6 +6,10 @@
         {
             "src": "/(.*)",
             "dest": "/404.html"
+        },
+        {
+            "src": "/contact.html",
+            "dest": "/404.html"
         }
     ]
 }

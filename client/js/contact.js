@@ -2,6 +2,8 @@
 // Remove the "rewrites" field in the vercel.json
 // After development to stop this
 
+// Test
+
 const form = document.querySelector('#contactForm');
 const msgSubmit = document.querySelector('#msgSubmit');
 const textArea = document.querySelector('#message');

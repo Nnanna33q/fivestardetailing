@@ -7,11 +7,5 @@
             "src": "/(.*)",
             "dest": "/404.html"
         }
-    ],
-    "rewrites": [
-        {
-          "source": "/contact.html",
-          "destination": "/404.html"
-        }
     ]
 }

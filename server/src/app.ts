@@ -7,11 +7,9 @@ import PingRouter from './routes/ping.js';
 
 const app = express();
 
-app.use(cors({ origin: (origin, callback) => {
-    if(origin === 'https://fivestardetailing.vercel.app' || origin === 'http://127.0.0.1:5500') {
-        callback(null, true);
-    } else callback(new Error('Not allowed by CORS'));
-}}))
+app.use(cors({
+    origin: process.env.NODE_ENV === 'production' ? process.env.CLIENT_DOMAIN : 'http://127.0.0.1:5500/'
+}))
 
 app.use(express.json());
 

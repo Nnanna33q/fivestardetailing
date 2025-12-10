@@ -344,9 +344,11 @@
         if (window.location.host === '127.0.0.1:5500' || window.location.includes('localhost')) {
             env.BACKEND_DOMAIN = 'http://localhost:3000'
         } else {
-            env.BACKEND_DOMAIN = 'mybackenddomain' // Add railway api domain
+            env.BACKEND_DOMAIN = 'https://fivestardetailing.onrender.com' // Add railway api domain
         }
         window.env = env;
+
+        fetch(`${env.BACKEND_DOMAIN}/ping`).catch(() => {}) // Pings Render, For Faster Form Submission
     </script>
 
     <!-- Jquery Library File -->
